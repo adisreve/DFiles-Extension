@@ -6,6 +6,7 @@ var iframe = document.getElementsByTagName('iframe');
 
 checking();
 
+// Checks if button exists
 function checking() {
 
     var checkExist = setInterval(function () {
@@ -19,7 +20,8 @@ function checking() {
             premiumbtn[0].style.height = '150px';
             clearInterval(checkExist);
         }
-    }, 100); // check every 100ms
+    }, 100); 
+    // check every 100ms
 
     return checkExist;
 }
