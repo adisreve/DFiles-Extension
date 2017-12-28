@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>DepositFiles Premium Downloader</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <style type="text/css">
+    body {
+      margin: 10px;
+      white-space: nowrap;
+    }
+
+    h1 {
+      font-size: 15px;
+    }
+
+    #container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn-text {
+      font-size: 1em;
+    }
+  </style>
+
+</head>
+
+<body class="text-center">
+  <h1 class="lead text-center">DepositFiles
+    <br> Premium Downloader</h1>
+  <hr>
+  <div id="container" class="container">
+    <div class="col-md-12 text-center">
+      <div id="successDiv" class=""></div>
+
+      <button class="btn btn-primary btn-sm" id="clearLimit">
+        <span class="lead btn-text">Clear Limit</span>
+      </button>
+    </div>
+    <iframe class="clearlimitframe" height="100" width="100" hidden></iframe>
+    <iframe class="clearlimitframe2" height="50" width="100" hidden></iframe>
+    <iframe class="clearlimitframe3" height="50" width="100" hidden></iframe>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
