@@ -26,9 +26,5 @@
   "content_scripts": [{
     "matches": ["https://dfiles.eu/", "https://dfiles.eu/*"],
     "js": ["script.js"]
-  }],
-
-  "background": {
-    "scripts": ["background.js"]
-  }
+  }]
 }
